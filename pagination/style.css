@@ -1,0 +1,39 @@
+
+body{
+    font-family: sans-serif;
+}
+nav{
+    justify-content: center;
+}
+#table-container{
+    justify-content: center;
+}
+thead{
+    
+    color: white;
+}
+.table thead tr:nth-child(1)
+{
+    background-color: rgb(77, 77, 77);
+}
+.table tr:nth-child(odd)
+{
+    background-color: lightgray;
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+}
+.pagination .page-item {
+  margin: 0 5px;
+}
+.pagination .page-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+.pagination .page-item.active a {
+  font-weight: bold;
+  color: #000;
+}
+
